@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <meta name="description" content="Personal website of Your Name — researcher and engineer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">Your Name</a>
+      <div class="nav-links">
+        <a href="index.html" class="active">About</a>
+        <a href="research.html">Research</a>
+        <a href="athletics.html">Athletics</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- HERO -->
+    <header class="hero">
+      <img class="hero-photo" src="assets/img/profile.svg" alt="Your Name" />
+      <div class="hero-text">
+        <h1>Your Name</h1>
+        <p class="tagline">
+          Data Scientist at <a href="#">Company</a> &middot; Researcher at
+          <a href="#">Your Lab / University</a>
+        </p>
+        <p class="bio">
+          I work on <strong>machine learning</strong> — with interests spanning
+          reinforcement learning, agentic systems, and applied deep learning.
+          I'm expected to graduate in <strong>2026</strong>. Previously I interned at
+          <a href="#">Place One</a> and <a href="#">Place Two</a>.
+          This is placeholder text — replace it with your own short bio.
+        </p>
+        <div class="socials">
+          <a href="mailto:you@example.com" title="Email">Email</a>
+          <a href="https://github.com/xpnq" title="GitHub">GitHub</a>
+          <a href="#" title="Twitter / X">Twitter</a>
+          <a href="#" title="LinkedIn">LinkedIn</a>
+          <a href="#" title="Google Scholar">Scholar</a>
+          <a href="assets/cv.pdf" title="CV">CV</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- SELECTED PROJECTS -->
+    <section class="section">
+      <h2>Selected Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <img src="assets/img/project1.svg" alt="" />
+          <div>
+            <h3>Project One Title</h3>
+            <p class="authors"><em>Your Name</em>, Collaborator A, Collaborator B</p>
+            <p class="desc">
+              One-sentence description of what this project is about and why it
+              matters. Replace with your own.
+            </p>
+            <p class="links">
+              <a href="#">Paper</a> &middot; <a href="#">Code</a> &middot;
+              <a href="#">Project Page</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="assets/img/project2.svg" alt="" />
+          <div>
+            <h3>Project Two Title</h3>
+            <p class="authors"><em>Your Name</em>, Collaborator A</p>
+            <p class="desc">
+              Short description of the second project. Replace with your own.
+            </p>
+            <p class="links">
+              <a href="#">Paper</a> &middot; <a href="#">Code</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="assets/img/project3.svg" alt="" />
+          <div>
+            <h3>Project Three Title</h3>
+            <p class="authors">Collaborator A, <em>Your Name</em></p>
+            <p class="desc">
+              Short description of the third project. Replace with your own.
+            </p>
+            <p class="links">
+              <a href="#">Code</a> &middot; <a href="#">Demo</a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="section">
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">Aug 2026</span> Started a new role / joined a new lab. (placeholder)</li>
+        <li><span class="date">May 2026</span> Paper accepted at a venue. (placeholder)</li>
+        <li><span class="date">Jan 2026</span> Began an internship at a company. (placeholder)</li>
+        <li><span class="date">Sep 2025</span> Launched this website. (placeholder)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      &copy; <span id="year"></span> Your Name &middot;
+      Built with plain HTML/CSS, hosted on GitHub Pages.
+    </p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">Your Name</a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="athletics.html">Athletics</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="section" style="border-top:none; padding-top:48px;">
+      <h2>Publications &amp; Preprints</h2>
+      <div class="projects">
+        <article class="project">
+          <img src="assets/img/project1.svg" alt="" />
+          <div>
+            <h3>Paper Title One</h3>
+            <p class="authors"><em>Your Name</em>, Collaborator A, Collaborator B &mdash; Venue 2026</p>
+            <p class="desc">Abstract or one-line summary. Replace with your own.</p>
+            <p class="links"><a href="#">PDF</a> &middot; <a href="#">arXiv</a> &middot; <a href="#">Code</a> &middot; <a href="#">BibTeX</a></p>
+          </div>
+        </article>
+        <article class="project">
+          <img src="assets/img/project2.svg" alt="" />
+          <div>
+            <h3>Paper Title Two</h3>
+            <p class="authors">Collaborator A, <em>Your Name</em> &mdash; Workshop 2025</p>
+            <p class="desc">Abstract or one-line summary. Replace with your own.</p>
+            <p class="links"><a href="#">PDF</a> &middot; <a href="#">arXiv</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section prose">
+      <h2>Research Interests</h2>
+      <p>
+        A paragraph about the questions you care about and the methods you use.
+        This is placeholder text — replace it with your own research statement.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Your Name</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

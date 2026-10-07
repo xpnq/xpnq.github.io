@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Athletics — Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏃</text></svg>" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">Your Name</a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="athletics.html" class="active">Athletics</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="section prose" style="border-top:none; padding-top:48px;">
+      <h2>Athletics</h2>
+      <p>
+        A space for the things you do outside of work — running, climbing,
+        cycling, chess, whatever you like. This is placeholder text; replace it
+        with your own.
+      </p>
+      <h3>Highlights</h3>
+      <ul>
+        <li>Achievement or personal best (placeholder)</li>
+        <li>Event you competed in (placeholder)</li>
+        <li>Goal you're working toward (placeholder)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Your Name</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
